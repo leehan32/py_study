@@ -9,4 +9,4 @@ def solution(my_string, overwrite_string, s):
     b = len(my_string)
     a = len(overwrite_string)
     my_string[s:s+a] = a[:]
-    return my_string
+    return my_string 1
