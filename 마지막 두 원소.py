@@ -5,7 +5,7 @@ def solution(num_list):
         
         return num_list + [a-b]
     else:
-        return num_list +[a*2]
+        return num_list + [a*2]
     
     
     

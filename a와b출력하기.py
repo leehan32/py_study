@@ -1,3 +1,3 @@
-str, n = input().strip().split(' ')
-n = int(n)
-print(str*n)
+a, b = map(int, input().strip().split(' '))
+print('a =',a)
+print('b =',b)
