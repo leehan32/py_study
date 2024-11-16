@@ -1,8 +1,9 @@
-a = "abcd"
+def solution(myStr):
+    b =myStr.replace('a',' ')
+    c = b.replace('b', ' ')
+    d = c.replace('c', " ")
+    words = d.strip().split()
+    if not words:
+        return ["EMPTY"]
+    return words
 
-
-b =a.replace('a',' ')
-c = b.replace('b', ' ')
-d = c.replace('c', " ")
-
-print(d.lstrip(" ").split(' '))
