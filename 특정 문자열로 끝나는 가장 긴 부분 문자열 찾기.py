@@ -1,6 +1,8 @@
-# def solution(myString, pat):
-#     answer = ''
-#     return answer
+def solution(myString, pat):
+    a = len(pat)
+    b = myString.rfind(pat)
+    answer = myString[:b+a]
+    return answer
 
 
 
